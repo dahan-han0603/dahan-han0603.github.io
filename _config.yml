@@ -15,7 +15,7 @@ website: https://dahan-han.pages.dev
 darkmode: false
 
 # Social links
-twitter_username: facespics
+#twitter_username: facespics
 github_username:  dahan.han0603
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -62,7 +62,7 @@ content:
     content:
       - layout: left
         title: 하람아이
-        link: boringcompany.com
+        link: https://www.harami.co.kr
         # link_text: boringcompany.com
         sub_title: 개발팀 파트리더
         caption: 2024.05 ~ 현재
