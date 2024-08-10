@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 한다한
+title: 백엔드 엔지니어
+email: dahan.han0603@gmail.com
+website: https://dahan-han.pages.dev
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 twitter_username: facespics
-github_username:  sproogen
+github_username:  dahan.han0603
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+#linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,71 +46,110 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  저는 다양한 기술 스택과 도메인에서 5년 이상의 경험을 쌓아온 백엔드 개발자입니다. 경력 초기에는 전자정부 프레임워크 기반의 공기업 및 사기업 프로젝트에 참여하며 기초를 다졌고, 웹 개발자로서의 역량을 강화했습니다. 이후에는 OpenSearch를 활용하여 사내 통합검색 기능을 구축하고, Java 빌드 툴을 개발 및 배포하는 등 개발 환경 개선에 기여했습니다. 이러한 경험을 통해 ‘누군가에게 도움이 되는 개발에서의 재미와 희열’을 느끼며 백엔드 개발자로서의 전문성을 더욱 강화하고 목표를 명확히 하게 되었습니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  이후 Java와 Spring Boot를 활용해 백엔드 개발을 맡으며, 클라우드 기반 동영상 트랜스코딩 API 개발과 결제 시스템 연동, 상품-주문 도메인 설계 프로젝트에서 핵심 역할을 수행했습니다. 이러한 경험을 통해 실질적인 성과를 달성하며 기술적 도전을 극복해왔습니다.
+
+  현재는 개발팀 파트리더로서 프로젝트 관리 툴 도입을 통해 팀의 효율성을 극대화하고, 조직의 개발 역량을 강화하는 데 주력하고 있습니다. 저는 기술적 도전에 열정적이며, 문제 해결을 통해 더 나은 서비스를 제공하는 것을 목표로 하고 있습니다.
+
+
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
+        title: 하람아이
         link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: 개발팀 파트리더
+        caption: 2024.05 ~ 현재
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          그룹웨어 솔루션(HICSS GroupWare) 서비스
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+            - 개발팀 프로젝트 관리 툴 YouTrack 도입
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: 카테노이드
+        link: https://www.catenoid.net
+        # link_text: boringcompany.com
+        sub_title: Java & Spring Boot 백엔드 개발자
+        caption: 2022.09 ~ 2024.05
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          월 평균 동영상 재생 수 1억, Series C 비디오 스트리밍, 미디어 자산관리 서비스
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+            - 카카오 i 클라우드 사용, 동영상 트랜스-코딩 API 개발
+            - PG(Stripe) 연계 및 상품-주문 도메인 설계 및 백엔드 개발
+      - layout: left
+        title: 하람아이
+        link: https://www.harami.co.kr
+        # link_text: boringcompany.com
+        sub_title: 웹 개발자
+        caption: 2020.06 ~ 2022.07
+        quote: >
+          그룹웨어 솔루션(HICSS GroupWare) 서비스
+        description: | # this will include new lines to allow paragraphs
+            - OpenSearch를 이용한 사내 그룹웨어 통합검색 개발
+            - 사내 Java 빌드 툴 개발
+            - AS-IS DB 분석 및 데이터 마이그레이션 경험(Oracle, Mssql, MariaDB)
+      - layout: left
+        title: 드림와이즈
+        link: http://www.dreamwise.co.kr/
+        #link_text: boringcompany.com
+        sub_title: 웹 개발자
+        caption: 2019.06 ~ 2020.05
+        # quote: >
+          # 
+        description: | # this will include new lines to allow paragraphs
+            - Java 구현 프로세스 Procedure(MariaDB) 전환 개발 및 아이돌봄 홈페이지 리뉴얼 고도화 프로젝트 참여
+            - 전자정부 프레임워크, MyBatis, MariaDB, Oracle, Elasticsearch 환경에서의 개발 경험
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  # - title: 역량 # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  # - title: Education # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Harvard University
+  #       caption: 2010 - 2013
+  #       sub_title: BSc Computer Science
+  #       quote: >
+  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  #       description: | # this will include new lines to allow paragraphs
+  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+  # - title: 외부 활동
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+  #     Look at this cool image  
+  #     ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
